@@ -16,7 +16,6 @@ import {
   Linkedin,
   Mail,
   MapPin,
-  Moon,
   Pause,
   Play,
   Send,
@@ -107,8 +106,9 @@ export default function Home() {
               <a href={portfolio.socialLinks[1].href} target="_blank" rel="noreferrer" aria-label="GitHub">
                 <Github size={17} />
               </a>
-              <button type="button" aria-label="Dark theme"><Moon size={16} /></button>
-              <span className="nav-status" />
+              <a className="nav-profile" href="#about" aria-label="About Tushar">
+                <Image src="/tushar-profile.png" alt="" width={34} height={34} />
+              </a>
             </div>
           </header>
         </Reveal>
@@ -340,7 +340,16 @@ export default function Home() {
         </section>
 
         <section id="about" className="editorial-section about-section">
-          <div>
+          <div className="profile-portrait">
+            <Image
+              src="/tushar-profile.png"
+              alt="Tushar, full-stack developer and AI/ML student"
+              width={432}
+              height={502}
+              sizes="(max-width: 640px) 100vw, 280px"
+            />
+          </div>
+          <div className="about-intro">
             <span className="section-eyebrow">About me</span>
             <h2>Curious mind.<br />Builder by habit.</h2>
           </div>

@@ -20,6 +20,23 @@ export const portfolio = {
     { value: "08", label: "Projects built" },
     { value: "03", label: "Certifications" },
   ],
+  education: [
+    {
+      period: "2023 - 2027",
+      institution: "Chandigarh University",
+      detail: "B.E. Computer Science Engineering (AI & ML)",
+    },
+    {
+      period: "2022 - 2023",
+      institution: "S.D. Sr. Sec. School",
+      detail: "Intermediate, CBSE PCM - 77.8%",
+    },
+    {
+      period: "2019 - 2020",
+      institution: "St. Francis De Sales School",
+      detail: "Matriculation, CBSE - 91.8%",
+    },
+  ],
   projects: [
     {
       number: "01",
@@ -107,23 +124,6 @@ export const portfolio = {
     { title: "Databases", skills: "PostgreSQL, MongoDB, SQLite, indexing, schema design" },
     { title: "AI & ML", skills: "Scikit-learn, Pandas, NumPy, Matplotlib, Random Forest" },
     { title: "Tools", skills: "Git, GitHub, Jupyter, Yjs, Socket.io, SSE, Vercel" },
-  ],
-  education: [
-    {
-      period: "2023 - 2027",
-      institution: "Chandigarh University",
-      detail: "B.E. Computer Science Engineering (AI & ML)",
-    },
-    {
-      period: "2022 - 2023",
-      institution: "S.D. Sr. Sec. School",
-      detail: "Intermediate, CBSE PCM - 77.8%",
-    },
-    {
-      period: "2019 - 2020",
-      institution: "St. Francis De Sales School",
-      detail: "Matriculation, CBSE - 91.8%",
-    },
   ],
   certifications: [
     "Introduction to Machine Learning - Duke University, 2025",
